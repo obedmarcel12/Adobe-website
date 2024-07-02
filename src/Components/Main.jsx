@@ -22,13 +22,13 @@ const Main = () => {
         className="bg-cover h-screen flex items-center justify-center relative top-[1.8cm] "
       >
         <div className=" flex flex-col text-white gap-5   justify-center items-center">
-          <b className="md:flex hidden md:font-bold font-semibold font-serif text-center text-[6.5vh]">
+          <b className="md:flex hidden md:font-bold font-semibold font-serif text-center text-[6.8vh]">
             The most memorable digital <br /> experiences are unleashed by{' '}
             <br />
             developer creativity
           </b>
           {/* sm */}
-          <b className=" md:hidden flex font-bold text-center text-[5.5vh] font-serif">
+          <b className=" md:hidden flex font-bold text-center text-[5.2vh] font-serif">
             The most <br /> memorable
             <br /> digital <br /> experiences are <br /> unleashed by <br />
             developer <br /> creativity
@@ -342,7 +342,7 @@ const Main = () => {
                 </p>
               </span>
 
-              <span className=" md:hidden flex text-sm font-serif items-center pt-5 pb-14">
+              <span className=" md:hidden flex text-xs font-serif items-center pt-5 pb-14">
                 <p>Copyright © 2024 OBETECH. All rights reserved.</p>
               </span>
             </ul>
