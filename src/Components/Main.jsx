@@ -17,7 +17,7 @@ const Main = () => {
         style={{
           width: '100%',
           height: '100vh',
-          backgroundImage: 'url(../src/assets/main-background.png)',
+          backgroundImage: 'url(./src/assets/main-background.png)',
         }}
         className="bg-cover h-screen flex items-center justify-center relative top-[1.8cm] "
       >
