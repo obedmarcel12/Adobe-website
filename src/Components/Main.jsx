@@ -14,12 +14,12 @@ const Main = () => {
   return (
     <main>
       <div
-        style={{
-          width: '100%',
-          height: '100vh',
-          backgroundImage: 'url(src/assets/main-background.png)',
-        }}
-        className="bg-cover h-screen flex items-center justify-center relative top-[1.8cm] "
+        // style={{
+        //   width: '100%',
+        //   height: '100vh',
+        //   backgroundImage: 'url(src/assets/main-background.png)',
+        // }}
+        className="bg-slate-800 h-screen flex items-center justify-center relative top-[1.8cm] "
       >
         <div className=" flex flex-col text-white gap-5   justify-center items-center">
           <b className="md:flex hidden md:font-bold font-semibold font-serif text-center text-[6.8vh]">
