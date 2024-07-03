@@ -1,11 +1,22 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import './Header.css'
 const Header = () => {
-  const [clicked, setClicked] = useState(false)
+  const [isVisible, setIsVisible] = useState(false)
+  const [isAnimating, setIsAnimating] = useState(false)
 
   const ToggleMenu = () => {
-    setClicked(!clicked)
+    if (isVisible) {
+      // Start slide-out animation
+      setIsAnimating(true)
+      setTimeout(() => {
+        setIsAnimating(false)
+        setIsVisible(false)
+      }, 500) // Match this duration with your animation duration
+    } else {
+      // Show menu immediately and start slide-in animation
+      setIsVisible(true)
+    }
   }
 
   const navigate = useNavigate()
@@ -87,8 +98,12 @@ const Header = () => {
           </ul>
         </nav>
 
-        {clicked && (
-          <div className=" w-[100%] flex bg-[#fff]  pt-9 h-[90vh] flex-col pl-10 absolute left-0 top-[2cm] items-start gap-6   ">
+        {isVisible && (
+          <div
+            className={`w-[100%] flex bg-[#fff] pt-9 h-[90vh] flex-col pl-10 absolute left-0 top-[2cm] items-start gap-6 ${
+              isAnimating ? 'slide-out-left' : 'slide-in-left'
+            }`}
+          >
             <p className=" w-[90%] flex items-center  hover:bg-slate-300 hover:h-[6vh] pl-3 rounded  text-base font-medium">
               Home
             </p>
