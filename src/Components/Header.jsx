@@ -104,16 +104,28 @@ const Header = () => {
               isAnimating ? 'slide-out-left' : 'slide-in-left'
             }`}
           >
-            <p className=" w-[90%] flex items-center  hover:bg-slate-300 hover:h-[6vh] pl-3 rounded  text-base font-medium">
+            <p
+              onClick={handleHome}
+              className=" w-[90%] flex items-center  hover:bg-slate-300 hover:h-[6vh] pl-3 rounded  text-base font-medium"
+            >
               Home
             </p>
-            <p className=" w-[90%] flex items-center  hover:bg-slate-300 hover:h-[6vh] pl-3 rounded text-base font-medium">
+            <p
+              onClick={handleAbout}
+              className=" w-[90%] flex items-center  hover:bg-slate-300 hover:h-[6vh] pl-3 rounded text-base font-medium"
+            >
               About
             </p>
-            <p className=" w-[90%] flex items-center hover:bg-slate-300 hover:h-[6vh] pl-3 rounded  text-base font-medium">
+            <p
+              onClick={handleService}
+              className=" w-[90%] flex items-center hover:bg-slate-300 hover:h-[6vh] pl-3 rounded  text-base font-medium"
+            >
               Services
             </p>
-            <p className=" w-[90%] flex items-center hover:bg-slate-300 hover:h-[6vh] pl-3 rounded text-base font-medium">
+            <p
+              onClick={handleContact}
+              className=" w-[90%] flex items-center hover:bg-slate-300 hover:h-[6vh] pl-3 rounded text-base font-medium"
+            >
               Contact
             </p>
           </div>
