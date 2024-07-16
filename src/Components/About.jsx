@@ -89,15 +89,15 @@ const About = () => {
             <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-20 border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={firefly}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Firefly Services
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Firefly Services is a comprehensive set of <br /> generative
                     AI and creative APIs that <br /> automates workflows.
                   </small>
@@ -105,15 +105,15 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%]  border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
@@ -121,18 +121,18 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[3.8rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[3.8rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={express}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Express add-ons
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Adobe Express add-ons are extensions and <br /> integrations
                     that enable connections to <br /> third-party tools and
                     unlock new capabilities <br /> and workflows.
@@ -141,15 +141,15 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
@@ -157,18 +157,18 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-20 border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-20 border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={express}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Express Embed SDK
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     The Adobe Express Embed SDK brings <br /> powerful Adobe
                     Express content creation to <br /> partners for integration.
                   </small>
@@ -176,15 +176,15 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
@@ -193,19 +193,19 @@ const About = () => {
           </div>
           {/*  */}
 
-          <div className="flex gap-9">
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-8 border-[1px] border-gray-200 rounded-md">
+          <div className="md:flex md:flex-row flex flex-col items-start md:pl-0 pl-10 justify-center gap-9">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-8 border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={creativecloud}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Creative Cloud{' '}
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Adobe Creative Cloud APIs and SDKs enable <br /> developers
                     to impact creative work for <br /> millions of users
                     worldwide. Build and <br /> distribute inspiring,
@@ -216,30 +216,30 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
               </div>
             </ul>
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-8 border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-8 border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={creativecloud}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Creative Cloud Libraries
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     The Libraries API lets you connect your app <br /> to
                     Creative Cloud and expand the reach of <br /> your users'
                     creative systems. Enable more <br /> efficient workflows by
@@ -250,12 +250,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -263,18 +263,18 @@ const About = () => {
             </ul>
 
             {/*  */}
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[4.4rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[4.4rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={photoshop}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Photoshop
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     With Photoshop APIs and SDKs, build <br /> plugins and
                     integrations that harness the <br /> power of the world's
                     best image editing <br /> software to transform creative
@@ -284,12 +284,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex   md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -297,17 +297,19 @@ const About = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="flex gap-9">
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[2rem] border-[1px] border-gray-200 rounded-md">
+          <div className="md:flex md:flex-row flex flex-col items-start md:pl-0 pl-10 justify-center gap-9">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[2rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={xd}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">XD</p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
+                    XD
+                  </p>
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Adobe XD’s powerful API platform lets <br /> developers and
                     users extend XD within the <br /> app, or in the cloud.
                     Automate complex <br /> tasks, modify and generate document{' '}
@@ -319,12 +321,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -332,18 +334,18 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[3.2rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[3.2rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={acrobat}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe PDF Embed API
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     With only a few lines of JavaScript, provide <br /> an
                     industry leading PDF viewing and <br /> collaboration
                     experience. Easily integrate <br /> discovery and engagement
@@ -353,12 +355,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -366,18 +368,18 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[4.3rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[4.3rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={Adobe}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Experience Platform
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Adobe Experience Platform provides a <br /> central service
                     for Data Ingestion, <br /> Governance, Insights, and
                     Actioning. These <br /> services are built API First.
@@ -386,12 +388,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -400,19 +402,19 @@ const About = () => {
           </div>
 
           {/*  */}
-          <div className="flex gap-9">
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[3.1rem] border-[1px] border-gray-200 rounded-md">
+          <div className="md:flex md:flex-row flex flex-col items-start md:pl-0 pl-10 justify-center gap-9">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[3.1rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={acrobat}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Document Cloud
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Improve the way you engage <br /> with documents. With Adobe
                     services, you can <br /> extend applications like Adobe
                     Acrobat <br />
@@ -423,12 +425,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -436,13 +438,13 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[8.4rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[8.4rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Analytics
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     The industry-leading solution for applying <br /> real-time
                     analytics and detailed <br /> segmentation across all of
                     your marketing <br /> channels.
@@ -451,12 +453,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
@@ -464,18 +466,18 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[3rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[3rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={adobeconsole}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Developer Console
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Adobe Developer Console is the ultimate <br /> developer
                     destination to access Adobe APIs <br /> & SDKs, listen to
                     near real-time Events, run <br /> functions on Runtime, or{' '}
@@ -485,15 +487,15 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
@@ -501,19 +503,19 @@ const About = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="flex gap-9">
-            <ul className="w-[22vw] h-[55vh]  flex flex-col gap-[7rem] border-[1px] border-gray-200 rounded-md">
+          <div className="md:flex md:flex-row flex flex-col items-start md:pl-0 pl-10 justify-center gap-9">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh]  flex flex-col gap-[7rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={sign}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Acrobat Sign
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Easily integrate e-signatures and 100% <br /> digital
                     workflows to your organization.
                   </small>
@@ -521,12 +523,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -535,18 +537,18 @@ const About = () => {
 
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh]  flex flex-col gap-[4.6rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh]  flex flex-col gap-[4.6rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={audience}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Audience Manager
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Helps you build unique audience profiles so <br /> you can
                     identify your most valuable <br /> segments and use them
                     across any digital <br /> channel.
@@ -555,12 +557,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -568,13 +570,13 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh]  flex flex-col gap-[8.7rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[8.7rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Developer App Builder
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Adobe Developer App Builder is a complete <br /> framework
                     for building custom cloud native <br /> Adobe apps that
                     extend Adobe solutions <br /> and run on our infrastructure.
@@ -583,15 +585,15 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
@@ -600,19 +602,19 @@ const About = () => {
           </div>
           {/*  */}
 
-          <div className="flex gap-9">
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[5.6rem] border-[1px] border-gray-200 rounded-md">
+          <div className="md:flex md:flex-row flex flex-col items-start md:pl-0 pl-10 justify-center gap-9">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[5.6rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={acrobat}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe PDF Services API
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     An easy-to-use cloud-based API that can <br /> automate
                     creation, manipulation and <br /> transformation of PDF
                     documents.
@@ -621,12 +623,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -634,13 +636,13 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[9.8rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[9.8rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Campaign
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     A set of solutions that help you personalize <br /> and
                     deliver campaigns across all of your <br /> online and
                     offline channels.
@@ -649,12 +651,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -662,13 +664,13 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[3.8rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[3.8rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Experience Platform Launch
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Adobe Experience Platform Launch, by <br /> Adobe is a
                     next-generation tag management <br /> system that unifies
                     the client-side marketing <br /> ecosystem by empowering
@@ -681,12 +683,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex justify-end pr-7 w-full items-center">
-                  <b className=" hover:w-[7.3vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
+                  <b className=" md:hover:w-[7.3vw] hover:w-[30vw] flex items-center justify-center hover:h-[5.3vh] text-[2.1vh] text-neutral-500  font-bold hover:rounded-full hover:bg-gray-100">
                     Learn More
                   </b>
                 </ul>
@@ -695,14 +697,14 @@ const About = () => {
           </div>
           {/*  */}
 
-          <div className="flex gap-9">
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[9.5rem] border-[1px] border-gray-200 rounded-md">
+          <div className="md:flex md:flex-row flex flex-col items-start md:pl-0 pl-10 justify-center gap-9">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[9.5rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe Experience Manager
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     A comprehensive content management <br /> solution for
                     building websites, mobile apps <br /> and forms.
                   </small>
@@ -710,12 +712,12 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className="w-full flex font-sans items-center justify-end pr-8">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
                 </ul>
@@ -723,13 +725,13 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[5.9rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[5.9rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Adobe I/O Events
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Lightning-fast event-based integrations using <br />{' '}
                     WebHooks.With Adobe I/O Events, you can <br /> code
                     event-driven experiences, applications, <br /> and custom
