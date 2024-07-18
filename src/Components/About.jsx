@@ -821,7 +821,7 @@ const About = () => {
       </div>
       {/*  */}
 
-      <section className="w-full md:h-[100vh] bg-gray-100 flex items-end justify-center">
+      <section className="w-full md:h-[100vh] h-[215vh] bg-gray-100 flex items-end justify-center">
         <section className=" w-full md:h-[90vh] h-[205vh] flex flex-col justify-center items-start md:bg-[#fdfdfd] bg-white">
           <div className="flex flex-col md:gap-20 gap-[5rem] font-sans md:pl-8 pl-7 ">
             <div className=" md:flex md:flex-row flex flex-col md:text-sm text-base md:gap-[3.2cm] gap-10">
