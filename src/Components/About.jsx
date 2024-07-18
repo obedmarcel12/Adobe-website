@@ -8,16 +8,9 @@ import adobeconsole from '../assets/adobe-console.svg'
 import sign from '../assets/sign.svg'
 import audience from '../assets/audiencemanager.svg'
 import stock from '../assets/stock.svg'
-import appicon from '../assets/dc-appicon.webp'
 import Adobe from '../assets/Adobe-img.webp'
 import express from '../assets/express.webp'
 import creativecloud from '../assets/creativecloud.webp'
-import homeillust from '../assets/home-illustration.webp'
-import homeillust2 from '../assets/home-illustration2.webp'
-import homeillust3 from '../assets/home-illustration3.webp'
-import fund from '../assets/fund.webp'
-import max from '../assets/max.webp'
-import block from '../assets/blocky-computer.webp'
 const About = () => {
   return (
     <div>
@@ -742,15 +735,15 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
@@ -758,16 +751,18 @@ const About = () => {
             </ul>
             {/*  */}
 
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[5.3rem] border-[1px] border-gray-200 rounded-md">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[5.3rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <img
-                  className="inline w-[4vw] h-[4vw] rounded-lg"
+                  className="inline md:w-[4vw] md:h-[4vw] w-[15vw] h-[15vw] rounded-lg"
                   src={stock}
                   alt=""
                 />
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">Stock</p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
+                    Stock
+                  </p>
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Give your users access to the perfect Adobe <br /> Stock
                     asset to enhance their creative <br /> projects.
                   </small>
@@ -775,30 +770,31 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
               </div>
             </ul>
           </div>
+
           {/*  */}
-          <div className="">
-            <ul className="w-[22vw] h-[55vh] flex flex-col gap-[10.5rem] border-[1px] border-gray-200 rounded-md">
+          <div className="md:flex md:flex-row flex flex-col items-start md:pl-0 pl-10 justify-center">
+            <ul className="md:w-[22vw] md:h-[55vh] w-[90vw] h-[50vh] flex flex-col gap-[10.5rem] border-[1px] border-gray-200 rounded-md">
               <div className=" justify-center pl-6 pt-5 flex flex-col gap-3">
                 <span className="flex flex-col gap-2">
-                  <p className="font-semibold font-sans text-[1.2vw]">
+                  <p className="font-semibold font-sans md:text-[1.2vw] text-[5vw]">
                     Marketo Developer APIs
                   </p>
-                  <small className="font-sans font-medium text-[2.1vh] text-gray-700">
+                  <small className="font-sans font-medium md:text-[2.1vh] text-[2vh] text-gray-700">
                     Detailed documentations that help you <br /> master the
                     Marketo APIs.
                   </small>
@@ -806,15 +802,15 @@ const About = () => {
               </div>
 
               <div className=" flex flex-col items-center   gap-4">
-                <ul className=" flex items-center justify-center w-full">
-                  <span className="flex  w-[85%] border-[1px] border-gray-100"></span>
+                <ul className=" flex items-center md:pl-0 pl-5 justify-center w-full">
+                  <span className="flex  md:w-[85%] w-[95%] border-[1px] border-gray-100"></span>
                 </ul>
 
                 <ul className=" flex font-sans items-center pl-14 gap-7">
-                  <b className=" text-gray-500 hover:w-[7.3vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
+                  <b className=" text-gray-500 md:hover:w-[7.3vw] hover:w-[30vw] text-[2.2vh] font-bold hover:h-[5.5vh] hover:flex hover:items-center hover:justify-center hover:rounded-full hover:bg-gray-200">
                     Learn More
                   </b>
-                  <button className="w-[7vw] h-[5.5vh] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
+                  <button className="md:w-[7vw] h-[5.5vh] w-[30vw] font-sans font-bold text-gray-700 hover:bg-gray-600 hover:border-none hover:text-white text-sm rounded-full border-2 border-gray-700">
                     View Docs
                   </button>
                 </ul>
